@@ -1,0 +1,373 @@
+@charset "UTF-8";
+
+/*
+	PORTAL DA CONFEDERACAO FLAVIANA
+	# A pedra qu'os constructores arrejeitaram #
+	
+	Template: Flavia Prima
+	Author: The Duke of Mocha
+	License: Creative Commons Attribution-ShareAlike 4.0 International
+	http://creativecommons.org/licenses/by-sa/4.0/
+*/
+
+
+/* Reset & General Rules */
+body {
+	width: 960px;
+	margin: 10px auto;
+	font: normal normal normal 16px/1.5em 'Exo 2';
+}
+
+
+/* Header 280px */
+header {
+	width: 200px;
+	padding: 12px 24px;
+	position: fixed;
+}
+
+#langmenu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 12px;
+	text-align: center;
+	font-family: Vollkorn;
+	font-size: 16px;
+}
+
+#langmenu ul li {
+	display: inline-block;
+	padding: 0 5px;
+	width: 30px;
+}
+
+#langmenu ul li a {
+	padding: 0;
+}
+
+#langmenu ul li a:link {
+	text-decoration: none;
+	color: black;
+}
+
+#langmenu ul li a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+#langmenu ul li a:hover {
+	color: black;
+	border-bottom: 2px solid black;
+	font-weight: bold;
+}
+
+#langmenu ul li a:active {
+}
+
+#langmenu ul li a.active {
+	color: black;
+	border-bottom: 2px solid black;
+	font-weight: bold;
+}
+
+/* Navigation Sidebar 280px */
+nav {
+	height: 100%;
+	width: 200px;
+	padding: 0px 24px;
+	position: fixed;
+	top: 150px;
+	overflow-x: hidden;
+	font-family: 'Exo 2';
+	font-size: 16px;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav ul li {
+	height: 30px;
+	/* text-indent: 10px; */
+	/* font-weight: bold; */
+}
+
+nav ul li a {
+	display: block;
+	padding: 2px 0;
+	/*border-top: 2px solid transparent;
+	border-bottom: 2px solid transparent;*/
+}
+
+nav ul li a:link {
+	color: black;
+	text-decoration: none;
+	font-weight: normal;
+}
+
+nav ul li a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: black;
+	-webkit-text-stroke: 0.04em black;
+}
+
+nav ul li a:active {
+	color: black;
+	-webkit-text-stroke: 0.04em black;
+}
+
+nav ul li a.active {
+	color: black;
+	-webkit-text-stroke: 0.04em black;
+}
+
+
+/* Main Content */
+main {
+	width: 688px;
+	margin-left: 248px;
+	padding: 30px 12px 12px 12px;
+}
+
+section {
+	margin-top: 32px;
+}
+
+section.main {
+	margin-top: 16px;
+}
+
+.banner {
+	height: 114px;
+	background-color: white;
+}
+
+h1 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-family: Vollkorn;
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 1.4em;
+}
+
+h2 {
+	padding: 0;
+	text-align: left;
+	font-family: Vollkorn;
+	font-size: 20px;
+	font-weight: 700;
+	margin-left: 25px;
+}
+
+p {
+	font-family: 'Exo 2';
+	font-size: 16px;
+	margin: 16px 0;
+	padding: 0;
+	text-align: justify;
+}
+
+strong {
+	font-weight: 600;
+}
+
+ul {
+	padding: 0 0 0 40px;
+	line-height: 1.5em;
+	margin: 0;
+}
+
+ul.info {
+	font-family: 'Exo 2';
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+	line-height: 1.5em;
+	list-style-type: none;
+}
+
+table#wiki {
+	width: 250px;
+	float: right;
+	font-family: Vollkorn;
+	font-size: 14px;
+}
+
+a:link {
+	color: rgb(188, 46, 46);
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a:visited {
+	color: rgb(188, 46, 46);
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a:hover {
+	color: rgb(232, 66, 66);
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+a:active {
+	color: rgb(232, 66, 66);
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+
+/* Footer */
+footer {
+	margin-left: 248px;
+	padding: 12px;
+}
+
+footer P {
+	font-family: Vollkorn;
+	font-size: 14px;
+	line-height: 1.2em;
+	margin: 0;
+	padding: 0;
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 960px) {
+	body {
+		width: 100%
+	}
+	header { /* Header 280px */
+		width: 80%;
+		max-width: 400px;
+		position: static;
+		padding: 12px 24px;
+		margin: 0 auto;
+		box-sizing: border-box;
+	}
+	
+	svg {
+		width: 100%;
+		height: auto;
+	}
+
+	#langmenu ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 12px;
+		text-align: center;
+		font-family: Vollkorn;
+		font-size: 16px;
+	}
+
+	#langmenu ul li {
+		display: inline-block;
+		padding: 0 5px;
+		width: 30px;
+	}
+
+	#langmenu ul li a {
+		padding: 0;
+	}
+
+	#langmenu ul li a:link {
+		text-decoration: none;
+		color: black;
+	}
+
+	#langmenu ul li a:visited {
+		text-decoration: none;
+		color: black;
+	}
+
+	#langmenu ul li a:hover {
+		color: black;
+		border-bottom: 2px solid black;
+		font-weight: bold;
+	}
+
+	#langmenu ul li a:active {
+	}
+
+	#langmenu ul li a.active {
+		color: black;
+		border-bottom: 2px solid black;
+		font-weight: bold;
+	}
+
+	/* Navigation Sidebar 280px */
+	nav {
+		height: 100%;
+		position: static;
+		width:95%;
+		margin: 0 auto;
+		box-sizing: border-box;
+		padding: 0;
+		font-family: 'Exo 2';
+		font-size: 16px;
+	}
+
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		text-align: center;
+	}
+
+	nav ul li {
+		height: 30px;
+		display: inline-block;
+		padding: 0 10px;
+		/* text-indent: 10px; */
+		/* font-weight: bold; */
+	}
+
+	nav ul li a {
+		display: block;
+		padding: 2px 0;
+		/*border-top: 2px solid transparent;
+		border-bottom: 2px solid transparent;*/
+	}
+
+	nav ul li a:link {
+		color: black;
+		text-decoration: none;
+		font-weight: normal;
+	}
+
+	nav ul li a:visited {
+		color: black;
+		text-decoration: none;
+	}
+
+	nav ul li a:hover {
+		color: black;
+		-webkit-text-stroke: 0.04em black;
+	}
+
+	nav ul li a:active {
+		color: black;
+		-webkit-text-stroke: 0.04em black;
+	}
+
+	nav ul li a.active {
+		color: black;
+		-webkit-text-stroke: 0.04em black;
+	}
+	
+	main {
+		width: 100%;
+		box-sizing: border-box;
+		position: static;
+		padding: 30px 12px 12px 12px;
+		margin: 0;
+	}
+}
